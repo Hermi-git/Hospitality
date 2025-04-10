@@ -10,7 +10,6 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Kuriftu Resort - Loyalty & Membership",
   description: "Loyalty and membership management dashboard for Kuriftu Resort",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -28,6 +27,3 @@ export default function RootLayout({
     </html>
   )
 }
-
-
-import './globals.css'
